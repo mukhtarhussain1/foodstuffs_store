@@ -32,8 +32,8 @@
 ##### [Live Demo](https://foodstuffs-store.erfjs.com) on Netlify
 
 <p align="center">
-  <a src="#" target="_blank"><img src="./readme/example1.png" width="800" height="auto" /></a>
+  <a src="#" target="_blank"><img src="./readme/exampleImg1.png" width="800" height="auto" /></a>
 </p>
 <p align="center">
-  <a src="#" target="_blank"><img src="./readme/example2.png" width="800" height="auto" /></a>
+  <a src="#" target="_blank"><img src="./readme/exampleImg2.png" width="800" height="auto" /></a>
 </p>
