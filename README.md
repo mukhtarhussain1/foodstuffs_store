@@ -29,11 +29,11 @@
 - Shipping cost calculation
 - calculation Price After confirmation offer code
 
-##### [Live Demo](https://foodstuffs-store.erfjs.com) on Netlify
+##### [Live Demo](https://foodstuffs-store-mukhtarhussain1.netlify.app/) on Netlify
 
 <p align="center">
-  <a src="#" target="_blank"><img src="./readme/exampleImg1.png" width="800" height="auto" /></a>
+  <a src="https://foodstuffs-store-mukhtarhussain1.netlify.app/" target="_blank"><img src="./readme/exampleImg1.png" width="800" height="auto" /></a>
 </p>
 <p align="center">
-  <a src="#" target="_blank"><img src="./readme/exampleImg2.png" width="800" height="auto" /></a>
+  <a src="https://foodstuffs-store-mukhtarhussain1.netlify.app/" target="_blank"><img src="./readme/exampleImg2.png" width="800" height="auto" /></a>
 </p>
