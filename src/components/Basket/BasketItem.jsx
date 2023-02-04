@@ -25,7 +25,7 @@ export default function BasketItem(props) {
           </span>
           <span>
             {(props.price * props.count).toLocaleString()}{" "}
-            {state.lng === "PR" ? "تومان" : "$"}
+            {state.lng === "PR" ? "ڈالر" : "$"}
           </span>
         </div>
       </Link>

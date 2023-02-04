@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ProductContext } from "../Context/ContextProvider";
 
 export default function FavoriteCard(props) {
-  const {state, dispath } = useContext(ProductContext);
+  const { state, dispath } = useContext(ProductContext);
 
   return (
     <div key={props.id} className="favorite_card">
@@ -11,10 +11,7 @@ export default function FavoriteCard(props) {
         <img className="favorite_img" src={props.image} alt="favorite_image" />
         <div className="favorite_content">
           <div className="favorite_title">
-            <span>
-              {" "}
-              {state.lng === "PR" ? props.title : props.title_en}
-            </span>
+            <span> {state.lng === "PR" ? props.title : props.title_en}</span>
           </div>
         </div>
       </Link>
@@ -22,7 +19,7 @@ export default function FavoriteCard(props) {
         onClick={() => dispath({ type: "ADD_FAVORITE", payload: props.id })}
         className="favorite_button"
       >
-        {state.lng === "PR" ? " حذف" : "Remove"}
+        {state.lng === "PR" ? " ہٹا دیں" : "Remove"}
       </button>
     </div>
   );

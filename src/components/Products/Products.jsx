@@ -15,7 +15,8 @@ export default function Products() {
     return (
       (lng.lng === "PR"
         ? product.title.includes(state.searchKey)
-        : product.title_en.toLowerCase().includes(state.searchKey)) || !state.searchKey
+        : product.title_en.toLowerCase().includes(state.searchKey)) ||
+      !state.searchKey
     );
   });
 
@@ -35,12 +36,12 @@ export default function Products() {
             {" "}
             <span className="products_empty_title">
               {lng.lng === "PR"
-                ? " با عرض پوزش هیچ محصولی با جستجوی شما مطابقت نداشت!"
+                ? "معذرت، کوئی پروڈکٹ آپ کی تلاش سے مماثل نہیں ہے۔!"
                 : "Sorry, no products matched your search!"}
             </span>
             <span className="products_empty_guide">
               {lng.lng === "PR"
-                ? "  !کلمه کلیدی دیگری را وارد کرده و امتحان کنید"
+                ? "دوسرا لفظ درج کریں اور کوشش کریں۔"
                 : "Enter another keyword and try!"}
             </span>
             <img

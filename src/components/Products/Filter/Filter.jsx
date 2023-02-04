@@ -14,31 +14,31 @@ export default function Filter() {
           onClick={() => dispath({ type: "ALL" })}
           className={`filter_btn  ${state.category === "ALL" && "active"}`}
         >
-          {lng.lng === "PR" ? "همه" : "All"}
+          {lng.lng === "PR" ? "تمام" : "All"}
         </button>
         <button
           onClick={() => dispath({ type: "VEGETABLE" })}
           className={`filter_btn ${state.category === "VEGETABLE" && "active"}`}
         >
-          {lng.lng === "PR" ? "سبزیجات" : "Vegetables"}
+          {lng.lng === "PR" ? "سبزیاں" : "Vegetables"}
         </button>
         <button
           onClick={() => dispath({ type: "FRUIT" })}
           className={`filter_btn ${state.category === "FRUIT" && "active"}`}
         >
-          {lng.lng === "PR" ? "میوه" : "Fruit"}
+          {lng.lng === "PR" ? "پھل" : "Fruit"}
         </button>
         <button
           onClick={() => dispath({ type: "NUTS" })}
           className={`filter_btn ${state.category === "NUTS" && "active"}`}
         >
-          {lng.lng === "PR" ? "خشکبار" : "Nuts"}
+          {lng.lng === "PR" ? "گری دار میوے" : "Nuts"}
         </button>
         <button
           onClick={() => dispath({ type: "BEANS" })}
           className={`filter_btn ${state.category === "BEANS" && "active"}`}
         >
-          {lng.lng === "PR" ? "حبوبات" : "Beans"}
+          {lng.lng === "PR" ? "پھلیاں" : "Beans"}
         </button>
       </div>
     </div>

@@ -31,7 +31,7 @@ export default function Card(props) {
         </div>
         <div className="price">
           <span>
-            {props.price.toLocaleString()} {state.lng === "PR" ? "تومان" : "$"}
+            {props.price.toLocaleString()} {state.lng === "PR" ? "ڈالر" : "$"}
           </span>
         </div>
       </div>

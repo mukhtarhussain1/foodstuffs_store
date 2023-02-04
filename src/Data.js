@@ -5,7 +5,7 @@ let allProducts = [
     title_en: "Strawberry",
     image: "images/1.jpg",
     price: 10000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -14,7 +14,7 @@ let allProducts = [
     title_en: "Onion",
     image: "images/2.jpg",
     price: 13000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -23,7 +23,7 @@ let allProducts = [
     title_en: "Tomato",
     image: "images/3.jpg",
     price: 15000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -32,7 +32,7 @@ let allProducts = [
     title_en: "Eggplant",
     image: "images/4.jpg",
     price: 12500,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -41,7 +41,7 @@ let allProducts = [
     title_en: "Broccoli",
     image: "images/5.jpg",
     price: 8500,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -50,7 +50,7 @@ let allProducts = [
     title_en: "Carrot",
     image: "images/7.jpg",
     price: 12000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -59,7 +59,7 @@ let allProducts = [
     title_en: "Cauliflower",
     image: "images/8.jpg",
     price: 8000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -68,7 +68,7 @@ let allProducts = [
     title_en: "Cucumber",
     image: "images/9.jpg",
     price: 4000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -77,7 +77,7 @@ let allProducts = [
     title_en: "Garlic",
     image: "images/10.jpg",
     price: 16500,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -86,7 +86,7 @@ let allProducts = [
     title_en: "Sweet pepper",
     image: "images/11.jpg",
     price: 7000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -95,7 +95,7 @@ let allProducts = [
     title_en: "Lettuce",
     image: "images/12.jpg",
     price: 18000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -104,7 +104,7 @@ let allProducts = [
     title_en: "Red pepper",
     image: "images/13.jpg",
     price: 20000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -113,7 +113,7 @@ let allProducts = [
     title_en: "Watermelon",
     image: "images/14.jpg",
     price: 8000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -122,7 +122,7 @@ let allProducts = [
     title_en: "Mushroom",
     image: "images/15.jpg",
     price: 25000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -131,7 +131,7 @@ let allProducts = [
     title_en: "Banana",
     image: "images/16.jpg",
     price: 47000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -140,7 +140,7 @@ let allProducts = [
     title_en: "Pumpkin",
     image: "images/17.jpg",
     price: 13500,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -149,7 +149,7 @@ let allProducts = [
     title_en: "Pineapple",
     image: "images/18.jpg",
     price: 25500,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -158,7 +158,7 @@ let allProducts = [
     title_en: "Almonds",
     image: "images/19.jpg",
     price: 55000,
-    category: "خشکبار",
+    category: "گری دار میوے",
     category_en: "Nuts"
   },
   {
@@ -167,7 +167,7 @@ let allProducts = [
     title_en: "Apple",
     image: "images/20.jpg",
     price: 12500,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -176,7 +176,7 @@ let allProducts = [
     title_en: "Hazelnut",
     image: "images/21.jpg",
     price: 45000,
-    category: "خشکبار",
+    category: "گری دار میوے",
     category_en: "Nuts"
   },
   {
@@ -185,7 +185,7 @@ let allProducts = [
     title_en: "Pistachio",
     image: "images/22.jpg",
     price: 150000,
-    category: "خشکبار",
+    category: "گری دار میوے",
     category_en: "Nuts"
   },
   {
@@ -194,7 +194,7 @@ let allProducts = [
     title_en: "Orange",
     image: "images/23.jpg",
     price: 12000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -203,7 +203,7 @@ let allProducts = [
     title_en: "Sunflower seed",
     image: "images/24.jpg",
     price: 40000,
-    category: "خشکبار",
+    category: "گری دار میوے",
     category_en: "Nuts"
   },
   {
@@ -212,7 +212,7 @@ let allProducts = [
     title_en: "Walnut",
     image: "images/25.jpg",
     price: 50000,
-    category: "خشکبار",
+    category: "گری دار میوے",
     category_en: "Nuts"
   },
   {
@@ -221,7 +221,7 @@ let allProducts = [
     title_en: "Cherry",
     image: "images/26.jpg",
     price: 60000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -230,7 +230,7 @@ let allProducts = [
     title_en: "Fig",
     image: "images/27.jpg",
     price: 55000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -239,7 +239,7 @@ let allProducts = [
     title_en: "Green Peas",
     image: "images/28.jpg",
     price: 30000,
-    category: "حبوبات",
+    category: "پھلیاں",
     category_en: "Beans"
   },
   {
@@ -248,7 +248,7 @@ let allProducts = [
     title_en: "Kiwi",
     image: "images/29.jpg",
     price: 20000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -257,7 +257,7 @@ let allProducts = [
     title_en: "Green beans",
     image: "images/30.jpg",
     price: 17000,
-    category: "حبوبات",
+    category: "پھلیاں",
     category_en: "Beans"
   },
   {
@@ -266,7 +266,7 @@ let allProducts = [
     title_en: "Red beans",
     image: "images/31.jpg",
     price: 22000,
-    category: "حبوبات",
+    category: "پھلیاں",
     category_en: "Beans"
   },
   {
@@ -275,7 +275,7 @@ let allProducts = [
     title_en: "Grape",
     image: "images/32.jpg",
     price: 24000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -284,7 +284,7 @@ let allProducts = [
     title_en: "Lemon",
     image: "images/33.jpg",
     price: 55000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -293,7 +293,7 @@ let allProducts = [
     title_en: "Cantaloupe",
     image: "images/34.jpg",
     price: 8000,
-    category: "میوه جات",
+    category: "پھل",
     category_en: "Fruit"
   },
   {
@@ -302,7 +302,7 @@ let allProducts = [
     title_en: "Lentils",
     image: "images/35.jpg",
     price: 13000,
-    category: "حبوبات",
+    category: "پھلیاں",
     category_en: "Beans"
   },
   {
@@ -311,7 +311,7 @@ let allProducts = [
     title_en: "Radish",
     image: "images/36.jpg",
     price: 4000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   },
   {
@@ -320,7 +320,7 @@ let allProducts = [
     title_en: "Corn",
     image: "images/37.jpg",
     price: 12000,
-    category: "سبزیجات",
+    category: "سبزیاں",
     category_en: "Vegetables"
   }
 ];

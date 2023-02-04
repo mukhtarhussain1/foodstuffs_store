@@ -19,9 +19,9 @@ export default function Footer() {
 
       <div className="footer_last">
         <div className="footer_link_box">
-          <Link to={"/basket"}>{lng.lng === "PR" ? " سبد خرید" : "Cart"}</Link>
+          <Link to={"/basket"}>{lng.lng === "PR" ? " ٹوکری" : "Cart"}</Link>
           <Link to={"/favorite"}>
-            {lng.lng === "PR" ? " علاقه مندی ها" : "Favorite"}
+            {lng.lng === "PR" ? " پسندیدہ" : "Favorite"}
           </Link>
         </div>
         <div className="footer_link_box">
@@ -31,7 +31,7 @@ export default function Footer() {
             rel="noopener noreferrer"
           >
             {lng.lng === "PR"
-              ? "سورس کد پروژه در گیت هاب"
+              ? "Project source code on GitHub"
               : "Project source code on GitHub"}
           </a>
           <LanguageSelect />

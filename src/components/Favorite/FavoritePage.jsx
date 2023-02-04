@@ -8,15 +8,14 @@ import FavoriteCard from "./FavoriteCard";
 export default function FavoritePage() {
   const { state, dispath } = useContext(ProductContext);
 
-
   return (
     <>
       <div className="favorite_container_linkBar">
         <div className="favorite_linkBar">
-          <span>{state.lng === "PR" ? " علاقه مندی ها" : "Favorites"}</span>
+          <span>{state.lng === "PR" ? " پسندیدہ" : "Favorites"}</span>
           <Link className="favorite_backLink" to={"/"}>
             <HiArrowRight />
-            {state.lng === "PR" ? " صفحه محصولات" : "Products page"}
+            {state.lng === "PR" ? " مصنوعات کا صفحہ" : "Products page"}
           </Link>
         </div>
       </div>
@@ -28,7 +27,7 @@ export default function FavoritePage() {
                 onClick={() => dispath({ type: "REMOVE_ALL_FAVORITE" })}
                 className="favorite_removeAll"
               >
-                {state.lng === "PR" ? "حذف همه" : "Remove All"}
+                {state.lng === "PR" ? "سب کو ہٹا دیں" : "Remove All"}
               </button>
             </div>
             <div className="favorite_container">
@@ -46,7 +45,7 @@ export default function FavoritePage() {
             />
             <span className="favorite_empty_title">
               {state.lng === "PR"
-                ? " علاقه مندی ها خالی است"
+                ? " پسندیدہ خالی ہیں۔"
                 : "Favorites are empty"}
             </span>
           </div>

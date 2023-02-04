@@ -14,10 +14,10 @@ export default function Basket() {
     <>
       <div className="favorite_container_linkBar">
         <div className="favorite_linkBar">
-          <span>{state.lng === "PR" ? "  سبد خرید" : "Basket"}</span>
+          <span>{state.lng === "PR" ? "ٹوکری" : "Basket"}</span>
           <Link className="favorite_backLink" to={"/"}>
             <HiArrowRight />
-            {state.lng === "PR" ? " صفحه محصولات" : "Products page"}
+            {state.lng === "PR" ? " مصنوعات کا صفحہ" : "Products page"}
           </Link>
         </div>
         {state.basket.length > 0 && (
@@ -26,7 +26,7 @@ export default function Basket() {
               <img src="images/sound(1).jpg" alt="" />
               <span>
                 {state.lng === "PR"
-                  ? " هزینه ارسال برای خرید های بالای 100,000 تومان رایگان می باشد."
+                  ? "100,000 $ سے زیادہ کی خریداریوں کے لیے شپنگ مفت ہے۔."
                   : "Shipping is free for purchases over 100,000 $."}
               </span>
             </div>
@@ -44,7 +44,7 @@ export default function Basket() {
             <OfferBadge />
             <div className="basket_price">
               <span>
-                {state.lng === "PR" ? " جمع سبد خرید" : "Total shopping cart"}
+                {state.lng === "PR" ? " کل شاپنگ کارٹ" : "Total shopping cart"}
               </span>
               <span>|</span>
               <span>{state.totalPrice.toLocaleString()} $</span>
@@ -52,11 +52,11 @@ export default function Basket() {
             {state.totalPriceAfterOffer > 0 && (
               <div className="basket_offer">
                 <span>
-                  {state.lng === "PR" ? " قیمت با تخفیف" : "Discounted price"}
+                  {state.lng === "PR" ? " رعایتی قیمت" : "Discounted price"}
                 </span>
                 <span>
                   {state.totalPriceAfterOffer.toLocaleString()}
-                  {state.lng === "PR" ? "تومان" : "$"}
+                  {state.lng === "PR" ? "ڈالر" : "$"}
                 </span>
               </div>
             )}
@@ -65,17 +65,17 @@ export default function Basket() {
             <div className="basket_send">
               <span>
                 {state.lng === "PR"
-                  ? "  مجموع مبلغ قابل پرداخت"
+                  ? "  قابل ادائیگی کل رقم"
                   : "Total amount payable"}
               </span>
               <span>
                 {state.totalPriceFainal.toLocaleString()}
-                {state.lng === "PR" ? "تومان" : "$"}
+                {state.lng === "PR" ? "ڈالر" : "$"}
               </span>
             </div>
             <button className="basket_button_buy">
               {state.lng === "PR"
-                ? " ادامه فرایند خرید"
+                ? " خریداری کا عمل جاری رکھیں"
                 : "Continue the purchase process"}
             </button>
             <button
@@ -83,7 +83,7 @@ export default function Basket() {
               className="basket_button_remove"
             >
               {state.lng === "PR"
-                ? ` حذف ${state.basket.length} کالا از سبد خرید`
+                ? ` شاپنگ کارٹ سے ${state.basket.length}اشیاء کو ہٹا دیں۔`
                 : `Remove ${state.basket.length} items from the shopping cart`}
             </button>
           </div>
@@ -97,7 +97,7 @@ export default function Basket() {
           />
           <span className="favorite_empty_title">
             {state.lng === "PR"
-              ? " سبد خرید خالی است"
+              ? " شاپنگ کارٹ خالی ہے۔"
               : "The shopping cart is empty"}
           </span>
         </div>

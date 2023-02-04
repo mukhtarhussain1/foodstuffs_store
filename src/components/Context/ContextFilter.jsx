@@ -4,7 +4,7 @@ import allProducts from "../../Data";
 const initialFilterState = {
   filteredItems: [...allProducts],
   searchKey: "",
-  category: 'ALL'
+  category: "ALL"
 };
 
 const filterItemsHandler = (key) => {
@@ -33,20 +33,20 @@ const filterReduce = (state, action) => {
       state.category = "VEGETABLE";
       return {
         ...state,
-        ...filterItemsHandler("سبزیجات")
+        ...filterItemsHandler("سبزیاں")
       };
 
     case "FRUIT":
       state.category = "FRUIT";
-      return { ...state, ...filterItemsHandler("میوه جات") };
+      return { ...state, ...filterItemsHandler("پھل") };
 
     case "NUTS":
       state.category = "NUTS";
-      return { ...state, ...filterItemsHandler("خشکبار") };
+      return { ...state, ...filterItemsHandler("گری دار میوے") };
 
     case "BEANS":
       state.category = "BEANS";
-      return { ...state, ...filterItemsHandler("حبوبات") };
+      return { ...state, ...filterItemsHandler("پھلیاں") };
 
     default:
       return state;

@@ -22,12 +22,14 @@ function Header() {
     <header className="header">
       <nav className="nav">
         <Link to={"/"} className="logo">
-          {state.lng === "PR" ? "  فروشگاه مواد غذایی " : "Foodstuffs Store"}
+          {state.lng === "PR"
+            ? "  کھانے پینے کی اشیاء کی دکان "
+            : "Foodstuffs Store"}
         </Link>
         <div className="search_header">
           {location.pathname === "/" && (
             <SearchBar
-              placeText={state.lng === "PR" ? "جستجو کنید ..." : "searching..."}
+              placeText={state.lng === "PR" ? "تلاش ..." : "searching..."}
             />
           )}
         </div>

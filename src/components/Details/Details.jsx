@@ -31,7 +31,7 @@ export default function Details() {
           <div className="details_linkBar">
             <span onClick={() => navigate(-1)} className="details_backLink">
               <HiArrowRight />
-              {state.lng === "PR" ? "بازگشت" : "Back"}
+              {state.lng === "PR" ? "پیچھے" : "Back"}
             </span>
           </div>
           <div className="datails_card">
@@ -55,17 +55,17 @@ export default function Details() {
                 <span style={{ color: "#0078c7" }}>|</span>
                 <span className="card_price">
                   {mainItem.price.toLocaleString()}{" "}
-                  {state.lng === "PR" ? "تومان" : "$"}
+                  {state.lng === "PR" ? "ڈالر" : "$"}
                 </span>
               </div>
               <div className="card_information">
                 <ul>
                   <li>
-                    {state.lng === "PR" ? "  ارگانیک : بله" : "Organic: Yes"}
+                    {state.lng === "PR" ? "  نامیاتی: ہاں" : "Organic: Yes"}
                   </li>
                   <li>
                     {state.lng === "PR"
-                      ? " وزن بسته بندی : یک کیلوگرم"
+                      ? " پیکیج وزن: ایک کلو"
                       : "Package weight: one Kg"}
                   </li>
                 </ul>
@@ -79,7 +79,7 @@ export default function Details() {
                   }
                   className="card_buy"
                 >
-                  {state.lng === "PR" ? " افزودن به سبد" : "add to cart"}
+                  {state.lng === "PR" ? " ٹوکری میں شامل کریں" : "add to cart"}
                 </button>
               )}
             </div>

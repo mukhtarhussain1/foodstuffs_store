@@ -11,7 +11,7 @@ export default function LanguageSelect(props) {
       }
     >
       <option value="EN">English</option>
-      <option value="PR">Persian</option>
+      <option value="PR">Urdu</option>
     </select>
   );
 }

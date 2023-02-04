@@ -21,7 +21,7 @@ function Offer() {
     <div className="offer_container">
       <span>
         {state.lng === "PR"
-          ? "   کد تخفیف دارید؟"
+          ? "   کیا آپ کے پاس ڈسکاؤنٹ کوڈ ہے؟"
           : "Do you have a discount code?"}
       </span>
       <div className="offer_box">
@@ -31,11 +31,11 @@ function Offer() {
           type="text"
           disabled={state.isEnterOfferCode}
           placeholder={
-            state.lng === "PR" ? "کد تخفیف:ABCD" : "discount code: ABCD"
+            state.lng === "PR" ? "ڈسکاؤنٹ کوڈ:ABCD" : "discount code: ABCD"
           }
         />
         <button disabled={state.isEnterOfferCode} onClick={checkOfferCode}>
-          {state.lng === "PR" ? " اعمال کد" : "Apply"}
+          {state.lng === "PR" ? " درخواست دیں" : "Apply"}
         </button>
       </div>
       {clickButton && state.isEnterOfferCode && (
